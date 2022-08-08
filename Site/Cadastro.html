@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+	<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" type="text/css" href="stylecidadao.css">
+		<link rel="shortcut icon" type="imagex/png" href="eva.ico">
+		<script defer src="sendButton.js"></script>
+		<script defer src="cpf.js"></script>
+		<script defer src="rg.js"></script>
+		<title>Entidade Virtual de Assistência - Cadastro</title>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div id="logo">
+					<a href="index.html"><img src="EvaLogo.png" height="75px" alt="Logo da Eva" ></a>
+				</div>
+				<div id="menu">
+					<a href="./index.html">Home</a>
+					<a href="./Cadastro.html">Cadastro</a>
+					<a href="Servicos.html">Sobre a Eva</a>
+					<a href="Contato.html">Fale conosco</a>
+				</div>
+			</div>
+		</header>
+		<div> 
+			<div id="principal">
+					<h1>Por favor insira seus dados.</h1><br>
+					<form action="/Cadastro", method="POST" id="formulario">	
+						<div class="Container">				
+							<div>
+								<label><b>Nome</b></label><br>
+								<input type="text" class="campo" name="nome" id="nome" placeholder='Ex: "João"' size="25px">
+							</div>
+							<div class="CampoDireita">
+								<label><b>Sobrenome</b></label><br>
+								<input type="text" class="campo" name="sobrenome" id="sobrenome" placeholder='Ex: "Silva Pereira"' size="25px">
+							</div>
+							<div class="CampoDireita">
+								<label><b>Data de nascimento</b></label><br>
+								<input type="date" class="campo" name="nascimento" id="nascimento" size="80px" min="1850-01-01" max="2010-01-01"><br>
+							</div>	
+						</div>	
+						<div class="Container">	
+							<div>
+								<label><b>RG</b></label><br>
+								<input oninput="mascaraRg(this)" type="text" name="rg" placeholder='Ex: "12.345.678-9"' size="25px"><br><br>
+							</div>
+							<div class="CampoDireita">
+								<label><b>CPF</b></label><br>
+								<input oninput="mascaraCpf(this)" name="cpf" placeholder='Ex: "123.456.789-11"' type="text" size="25px"><br>
+							</div>
+						</div>
+						<div class="Container">				
+							<div>
+								<label><b>Email</b></label><br>
+								<input type="email" class="campo" name="email" id="email" placeholder='Ex: "joaosilvapereira@gmail.com"' size="50px" ><br>
+							</div>
+							<div class="CampoDireita">
+								<label><b>Confirme seu email</b></label><br>
+								<input type="email" class="campo" name="confirmacaoEmail" id="confirmacaoEmail" placeholder='Ex: "joaosilvapereira@gmail.com"' size="50px" ><br>
+							</div>
+						</div>
+						<div class="Container">	
+							<div>
+								<label><b>Estado</b></label><br>
+								<input type="text" name="estado" placeholder='Ex: "Minas Gerais"' size="25px"><br><br>
+							</div>
+							<div class="CampoDireita">
+								<label><b>Cidade</b></label><br>
+								<input name="cidade" placeholder='Ex: "Belo Horizonte"' type="text" size="25px"><br>
+							</div>
+						</div>
+						<div class="Container">	
+							<div>
+								<label><b>Endereço</b></label><br>
+								<input type="text" class="campo" name="endereco" placeholder='Ex: "Av Afonso Pena 250"' size="50px" ><br>
+							</div>
+							<div class="CampoDireita">
+								<label><b>Complemento(Opicional).</b></label><br>
+								<input type="text" name="complemento" placeholder="Ex. Bloco, apartamento, etc." size="50px"><br>
+							</div>
+						</div>
+						<div class="Container">	
+							<div>
+								<label><b>Senha</b></label><br>
+								<input type="password" class="campo" id="senha" name="senha" placeholder="Ela deve ter no mínimo 8 caracteres" size="50px" maxlength="15"><br>
+							</div>
+							<div class="CampoDireita">
+								<label><b>Confirme sua senha</b></label><br>
+								<input type="password" class="campo" id="confirmaSenha" name="confirmacaoSenha" placeholder="Ela deve ter no mínimo 8 caracteres" size="50px" maxlength="15"><br>
+							</div>
+						</div><br>										
+						<div id="alerta"></div>		
+					<button type="submit" id="botao">Enviar</button>
+				</form>
+				
+
+			</div>
+		</div>
+		<footer>
+			<div class="logoo">
+				<img src="UAILogo.png" height="50px" alt="Logo da UAI Minas">
+				<img src="logo.shopping2.png" height="50px" alt="Logo do Shopping do Cidadão">
+			</div>
+		</footer>
+	</body>
+	</html>

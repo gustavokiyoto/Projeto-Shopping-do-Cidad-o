@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+	<html lang="pt-BR">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" type="text/css" href="stylecidadao.css">
+		<link rel="shortcut icon" type="imagex/png" href="eva.ico">
+        <script defer src="temporaryUserData.json"></script>
+		<script defer src="loadInformation.js"></script>        		
+		<title>Entidade Virtual de Assistência - Cadastro</title>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<div id="logo">
+					<a href="index.html"><img src="EvaLogo.png" height="75px" alt="Logo da Eva" ></a>
+				</div>
+				<div id="menu">
+					<a href="./index.html">Home</a>
+					<a href="./Cadastro.html">Cadastro</a>
+					<a href="Servicos.html">Sobre a Eva</a>
+					<a href="Contato.html">Fale conosco</a>
+				</div>
+			</div>
+		</header>
+		<main class="informacoesUsuario">
+            <div class="card" id="informacoesIndividuo">
+                <h1 class="informacoesTitulo">Informações do Usuário</h1>
+                <label class="informacoesLabel" id="lnome">Nome</label>
+                <label class="informacoesDado" id="nome"></label><br>
+                <label class="informacoesLabel" id="lemail">Email</label>
+                <label class="informacoesDado" id="email"></label><br>
+                <label class="informacoesLabel" id="ldata_nascimento">Data de Nascimento</label>
+                <label class="informacoesDado" id="data_nascimento"></label><br>
+                <label class="informacoesLabel" id="lcpf">CPF</label>
+                <label class="informacoesDado" id="cpf"></label><br>
+                <label class="informacoesLabel" id="lendereco">Endereço</label>
+                <label class="informacoesDado" id="endereco"></label><br>
+                <label class="informacoesLabel" id="lcidade">Cidade</label>
+                <label class="informacoesDado" id="cidade"></label><br>
+                <label class="informacoesLabel" id="lestado">Estado</label>
+                <label class="informacoesDado" id="estado"></label><br>
+                <label class="informacoesLabel" id="lcomplemento">Complemento</label>
+                <label class="informacoesDado" id="complemento"></label><br>
+                <button class="informacaoBotao">Alterar Endereço</button>
+            </div>            
+            <div class="card" id="informacoesServico">
+                <h1 class="informacoesTitulo">Serviços Agendados</h1>
+                <table class="styled-table">
+                    <thead>
+                        <th>Serviço</th>
+                        <th>Unidade</th>
+                        <th>Horário</th>
+                        <th>Dia</th>
+                        <th>Desmarcar<br> Agendamento</th>
+                    </thead>
+                    <tbody id="tabelaServico">
+                                               
+                    </tbody>
+                </table>
+            </div>
+        </main>
+		<footer>
+			<div class="logoo">
+				<img src="UAILogo.png" height="50px" alt="Logo da UAI Minas">
+				<img src="logo.shopping2.png" height="50px" alt="Logo do Shopping do Cidadão">
+			</div>
+		</footer>
+	</body>
+	</html>

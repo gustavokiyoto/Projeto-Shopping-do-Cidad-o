@@ -1,0 +1,559 @@
+p{
+    color: #272525;
+    font-size: 22px;font-family: calibri; 
+    padding: 20px; 
+    text-align: left;
+    text-shadow: 0;
+    width: 70%;
+}
+*{
+     margin: 0;
+}
+@font-face{
+     font-family: "fonte"; src: url(goosepl.ttf)
+}
+@font-face{
+    font-family: "fontee"; src: url(gooseps.ttf)
+}
+
+#EvaSaudacao{
+    margin-left: 20%;
+    display: inline-flex;     
+    width: 50%;   
+}
+
+#paragrafoPrincipal{    
+    width: 50%;
+}
+
+#imagemPrincipal{
+    position: absolute;
+    margin-top: 20px;
+    width: 800px;
+    object-fit: cover;
+}
+
+#botoesIniciais{
+   
+    margin-left: 55%;
+    position: relative;
+    margin-top: 57%;
+    display: inline-flex;
+}
+
+.botaoInicial1{
+
+    margin-bottom: 5%;  
+    width: 170px;  
+}
+
+.botaoInicial2{
+    margin-left: 10px;
+    background-color: #cc3036;
+    width: 170px;    
+}
+
+/* CSS */
+button {
+  background-color: #4CAF50;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover,
+button:focus {
+  background-color: #99bb9a;
+}
+#botao{
+    background-color: #4CAF50;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;    
+    margin-left: 40%;
+    margin-right: auto;    
+    outline: none;
+    padding: 10px 16px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+#botao:hover,
+#botao:focus {
+  background-color: #99bb9a;
+}
+#alerta{
+    font-family: "fontee";
+    color: rgb(235, 0, 0);
+    font-size: 15px;
+    background-color: rgb(255, 182, 182);
+    width: 400px;
+    line-height: 30px;
+}
+#formulario{
+    margin-left: 500px;
+}
+header{
+    background-color: #272525; height: 65px;padding: 20px;clear: both;margin:0 auto;
+}
+footer{
+    background-color: white;height: 50px; font-size: 20px;clear: both;padding: 10px;
+}
+#principal{
+    background-color: white;background-size: 100%; min-height: 432px;padding: 25px;clear: both;
+    width: 50%;
+}
+.container{
+    width: 1250px; margin:5 auto;
+}
+
+.Container{
+    display:inline-flex;
+    margin-bottom: 15px;
+    
+}
+.CampoSobrenome{
+    margin-left: 10px;
+}
+.CampoDireita{
+    margin-left: 30px;
+}
+
+/*#cadastro{
+    margin-left: 500px; float: left; padding: 10px;
+}
+.containertres{
+    margin-left: 890px; padding: 10px;
+}*/
+#nascimento{
+    height: 30px;
+    margin-bottom: 20px;
+}
+ h1{color: #FF7F50;margin: auto; font-family: "fontee";}
+ p{text-shadow: 1px 1px 1px #111111; margin: auto;}
+ .efeito{background-color: rgba(0, 0, 0, 0.5);padding: 100px 0 100px 0; margin: auto;}
+ #logo{float: left;}
+ .titulo{text-align: center;}
+.logoo{
+    margin-left: 475px;
+}
+ #imagem{float: right; padding-right: 50px;}
+ #menu{float: right;margin-top: 25px;} 
+ #menu a{text-decoration: none;color: white;padding: 25px 20px;font-weight: bold;font-family:"fonte"; font-size: 20px;}
+ #menu a:hover{background-color: #f7921e; color: white;}
+ label{font-family: arial; font-size: 20px;}
+ input[type=text]{height: 30px;font-family: georgia;}
+ input[type=password]{height: 30px;font-family: georgia;}
+
+ /*Sobre a Eva*/
+
+ .colaboracao{
+    width: 940px;
+    margin:0 auto;
+    padding: 50px 0;
+}
+.colaboracao h2{
+    text-align: center;
+    margin: 20px;
+}
+
+.colaboracao img{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.colaboracao img:hover{
+    transform: scale(1.1);
+    transition: 400ms;
+}
+#logouaiC{
+    padding: 103px 30px;
+}
+#logofiap{
+    padding: 118px 30px;
+}
+ 
+
+.descricaoI{
+    width: 100%;
+    padding: 3em 0;
+    background: #e2e2e2;
+    margin: auto;
+    display: block;
+}
+
+
+.chateva{
+    width: 20%;
+    margin-left: 15%;
+    margin-right: 20px;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 10px;
+    float: left;
+    transition: 400ms;
+}
+
+.chateva:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.descricao p{
+    width: auto;
+    vertical-align: top;
+    padding: 3em;
+    margin: 1em;
+    display: block;
+}
+
+.pluginFace{
+    width: 100%;
+    height:756px;
+    background-image: url(evaPng1.png);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+.fb-page{
+    width: auto;
+    display: inline-block;
+    margin-top: 415px;
+    position: relative;
+    margin-left: 800px;
+}
+
+.fb-page:hover{
+    transform: scale(1.2);
+    transition: 600ms;
+}
+
+.botaomobile{
+    display: none;
+}
+
+/*Login*/
+
+.bodylogin{
+    background-color: #F0F0F0;
+}
+
+.informacoesUsuario{
+    width:fit-content;
+    margin-left: 6%;
+    margin-bottom: 5%;
+    padding-top: 40px;
+    display: inline-flex;    
+}
+
+
+#informacoesServico{    
+    margin-left: 70px;    
+}
+
+.informacoesTitulo{
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 20px;    
+}
+
+.informacoesLabel{
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#000000;
+}
+
+.informacoesDado{
+    color: darkred;
+    margin-left: 50px;  
+    width: 200px;     
+}
+
+.formularioLogin{
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.informacaoBotao{
+    left: 30%;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: darkred;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid darkred;
+}
+
+.card{
+    box-shadow: 5px 5px 5px 5px #ccc;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.card-top{
+    text-align: center;
+}
+
+
+.ImgCard{
+    width:50%;
+    height: auto;
+}
+
+.titulologin{
+    color: #dc3545;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.paragrafologin{
+    font-size: 17px;
+    margin: auto;
+}
+
+.card-group label{
+    width: 100%;
+    color: rgb(75, 75, 75);
+    display: block;
+    margin-top: 30px;
+}
+
+.card-group input{
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    height: 30px;
+}
+.botaologin{
+    background-color: darkred;
+    margin: 10% 0;
+    width: 100%;
+}
+
+ @media screen and (max-width: 480px){
+/* Responsivo do Cadastro.html*/
+    #principal{
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+    label, footer{
+        width: auto;        
+    }
+    header{
+        width: auto;
+        height: 120px;
+    }
+    .container{
+        width: auto;
+    }
+    #menu{
+        width: auto;
+    }
+    #menu a{
+        position: static;
+        display: inline-block;
+        padding: 5px;
+        margin: 0px 5px 0px 5px;
+        font-size: 10px;
+    }
+
+    #logo{
+        display: inline-block;
+        margin: 0 35%;
+    }
+
+    #formulario{
+        margin: auto;
+    }
+    .Container{
+        display: block;
+    }
+    .CampoDireita{
+        margin-left: 0px;
+        width: auto;
+    }
+    #botao{
+        margin: 0 30% 10px;
+    }
+
+    input[type=text]{
+         width: 100%;
+         margin: 10px 0 10px 0px;
+    }
+    #cadastro{
+        margin-left: 0px;
+    }
+
+    .containertres{
+        margin-left: 0px;
+    }
+    input[type=password]{
+        width: 100%;
+        margin: 10px 0 10px 0px;
+    }
+    input[type=submit]{
+        margin: 10% 40% 10%;
+    }
+    .logoo{
+        width: auto;
+        margin-left: 0;
+        margin-top: 20%;
+    }
+
+    /* index.html*/
+    #EvaSaudacao{
+        display: block;
+        width: auto;
+        margin-left: 5%;
+    }
+    .titulo{
+        margin-bottom: 10%;
+    }
+    #imagemPrincipal{
+        width: 90%;
+    }
+
+    #paragrafoPrincipal{
+        width: auto;
+        display: inline;
+        margin: auto;
+    }
+    #botoesIniciais{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    /*Sobre a Eva*/
+    .colaboracao{
+        width: auto;
+    }
+    .colaboracao img{
+        width: 30%;
+    }
+    #logouaiC{
+        padding: 54px 30px;
+        width: 30%;
+        margin: auto;
+    }
+
+    #logofiap{
+        padding: 58px 30px;
+        width: 30%;
+    }
+
+    .fb-page{
+        width: auto;
+        margin: 50px;
+    }
+    .chateva{
+        width: 70%;
+        float: none;
+    }
+    .pluginFace{
+        height: 100px;
+        background: #FFFFFF;
+        display: none;
+    }
+    
+    .botaomobile{
+        display: inline-block;
+        padding: 10%;
+        text-align: center
+    }
+
+    .botaomobile h4{
+        font-size: 20px;
+        color: darkred;
+        font-weight: bold;
+    }
+
+    .botao2{
+        margin: 10%;
+        width: 80%;
+        padding: 10px;
+        background-color: blue;
+    }
+
+    /* resultado*/
+    .container{
+        width: auto;
+    }
+
+    .botao3{
+        margin: 10% 30%;
+    }
+}

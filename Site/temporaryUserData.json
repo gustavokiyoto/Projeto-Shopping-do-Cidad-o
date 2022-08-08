@@ -1,0 +1,16 @@
+[
+  {
+    "id_usuario": 1,
+    "nome": "Marcelo",
+    "email": "mm@gmail.com",
+    "senha": "12345",
+    "data_nascimento": "2001-03-21T03:00:00.000Z",
+    "endereco": "rua tal",
+    "rg": "12345678",
+    "cpf": "10987654321",
+    "sobrenome": "Brito",
+    "estado": "Minas Gerais",
+    "cidade": "Governador Valadares",
+    "complemento": null
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id_servico": 3,
+    "nome": "agendamento de rg",
+    "unidade": "Governador Valadares",
+    "horario": "18:00:00",
+    "dia": "2021-09-27T03:00:00.000Z",
+    "id_usuario": 1,
+    "senderToken": "4145891078867677"
+  },
+  {
+    "id_servico": 4,
+    "nome": "correcao do rg",
+    "unidade": "Juiz de Fora",
+    "horario": "14:00:00",
+    "dia": "2021-09-30T03:00:00.000Z",
+    "id_usuario": 1,
+    "senderToken": "4145891078867677"
+  },
+  {
+    "id_servico": 5,
+    "nome": "entrega do rg",
+    "unidade": "Juiz de Fora",
+    "horario": "10:00:00",
+    "dia": "2021-09-29T03:00:00.000Z",
+    "id_usuario": 1,
+    "senderToken": "4145891078867677"
+  },
+  {
+    "id_servico": 6,
+    "nome": "emissao de rg",
+    "unidade": "Betim",
+    "horario": "12:00:00",
+    "dia": "2021-09-29T03:00:00.000Z",
+    "id_usuario": 1,
+    "senderToken": "4145891078867677"
+  }
+]
